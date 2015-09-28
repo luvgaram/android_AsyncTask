@@ -48,7 +48,7 @@ public class ImageAdapter extends BaseAdapter {
             imageView = (ImageView) convertView;
         }
 
-        FileDownloader fileDownloader = new FileDownloader();
+        FileDownloaderWithHandler fileDownloader = new FileDownloaderWithHandler();
         fileDownloader.downFile(getItem(position), imageView);
 
         return imageView;

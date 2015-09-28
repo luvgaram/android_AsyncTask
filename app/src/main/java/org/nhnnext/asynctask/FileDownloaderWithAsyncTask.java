@@ -20,7 +20,7 @@ import java.io.InputStream;
 /**
  * Created by eunjooim on 15. 9. 24.
  */
-public class FileDownloader {
+public class FileDownloaderWithAsyncTask {
     public void downFile(String url, ImageView imageView) {
         int api = android.os.Build.VERSION.SDK_INT;
 
